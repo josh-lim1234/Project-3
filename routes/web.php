@@ -15,5 +15,5 @@ Route::get('/example', function () {
     return 'hello there!';
 });
 
-Route::get('/loading...', 'BookController@load');
-Route::get('/', 'BookController@index');
+Route::get('/loading...', 'FormController@load');
+Route::get('/', 'FormController@index');
