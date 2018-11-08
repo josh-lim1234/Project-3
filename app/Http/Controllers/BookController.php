@@ -15,10 +15,13 @@ class BookController extends Controller {
         $dosage = $request->query('dosage');
         $litre = $request->query('litre');
         $permL = $price / $dosage;
-        if ($litre) {
+        if ($litre) 
+        {
             $per = $permL*1000;
             return "1 L of your drink is worth $" . $per;
-        } else {
+        } 
+        else 
+        {
             $per = $permL;
             return "1 mL of your drink is worth $" . $per;
         }
