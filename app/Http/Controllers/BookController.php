@@ -23,6 +23,5 @@ class BookController extends Controller
             $per = $permL;
             return "1 mL of your drink is worth $" . $per;
         }
-        $per = $_GET['$per'] ?? null;
     }
 }
