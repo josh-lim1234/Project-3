@@ -25,8 +25,4 @@ class BookController extends Controller
         }
         $per = $_GET['$per'] ?? null;
     }
-    public function results()
-    {
-        return view('form.search');
-    }
 }
