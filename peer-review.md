@@ -2,20 +2,14 @@
 
 + Reviewer's name: Josh Lim
 + Reviwee's name: Sean Lim
-+ URL to Reviewe's P3 Github Repo URL: *<https://github.com/example/p3>*
-
-*Answer the following questions in regards to the student's project you are reviewing. REMOVE THE INSTRUCTIONS FOR EACH PROMPT when complete. We should only see YOUR ANSWERS.*
++ URL to Reviewe's P3 Github Repo URL: *https://github.com/seanlimxD/p3*
 
 ## 1. Interface
 Address as many of the following points as applicable:
 
-+ What are your initial impressions of the site interface?
 + The site has a simple design that can be easily understood.
-+ Were there any parts of the interface that you found confusing, or did not work as you expected?
 + The age does not seem to have much effect on the output.
-+ Were there any parts of the interface that you thought worked notably well?
 + All the parts of the interface worked as intended, I did not encounter any problems.
-+ Do you have any suggestions for improvements on the interface?
 + The age should have more effect on the overall output.
 
 
@@ -24,16 +18,10 @@ One challenge of developing software is thinking of all the unexpected ways user
 
 Knowing this, it's time to put your reviewee's application to the test. Think of all the unexpected ways their application could be used with the intention of trying to produce some unexpected/undesirable outcome.
 
-Examples...
-+ Try submitting a form without entering any data
-+ Gives errors for missing fields
-+ Try submitting a form with entering data in only some of the fields
-+ Gives errors for missing fields
-+ If an input is asking for a number, try entering some of the following combinations: decimal numbers, negative numbers, letters, symbols, an extremely large number, etc.
++ If a no fields are filled, gives errors for missing fields
++ If a few fields are filled, gives errors for missing fields
 + If extremely large number is inputted, it gives the "The age must be an integer." error.
-+ Try and access a URL on their site that likely does not exist (e.g. http://a3.domain.com/asdjfks)
 + When trying to access an URL that does not exist, the output is a 404 not found page.
-+ Etc.
 
 __Summarize what you tried, and describe any unexpected/undesirable outcomes.__
 
@@ -42,28 +30,22 @@ __Summarize what you tried, and describe any unexpected/undesirable outcomes.__
 
 
 ## 3. Code: Routes
-Skim through the student's code on Github.
 
-Find their routes file (`routes/web.php`). Thinking about ideal Route/Controller organization&mdash; is there any code in this file that should be happening in a Controller?
-
-If yes, describe.
+There is no code that should be placed in a controller.
 
 ## 4. Code: Views
 Skim through the View files in `/resources/views` and address as many of the following points as applicable:
 
-+ Is template inheritance used?
-+ Are there any separation of concern issues (i.e. non-display specific logic in view files)?
-+ Did they do anything in PHP that could have been done in Blade?
-+ Did they use any Blade syntax/techniques you were unfamiliar with?
++ Template inheritance is used.
++ There was no non-display specific logic in the view files.
++ Based on my diagnosis, Blade was used as much as it could have been used.
++ No they did not use any Blade syntax/techniques I were unfamiliar with.
 
 ## 5. Code: General
 Address as many of the following points as applicable:
 
-+ Do you notice any inconsistencies between the code and the course notes on [code style](https://github.com/susanBuck/dwa15-fall2018/blob/master/misc/code-style.md)?
-+ Are there any best practices discussed in course material that you feel were not addressed in the code?
-+ Are there aspects of the code that you feel were not self-evident and would benefit from comments?
-+ Are there any parts of the code that you found interesting/would not have thought to do yourself?
-+ Are there any parts of the code that you don't understand?
-
-## 6. Misc
-Do you have any additional comments not covered in the above questions?
++ I did not notice any inconsistencies between the code and the course notes.
++ I felt that this code followed all best practices discussed in the course material.
++ Most codes that weren't self evident were followed by comments.
++ The logic of his code was interesting, I personally would have approached the idea a different way.
++ Any code I didn't understand was explained with comments.
