@@ -1,7 +1,7 @@
 ## P3 Peer Review
 
-+ Reviewer's name: 
-+ Reviwee's name: 
++ Reviewer's name: Josh Lim
++ Reviwee's name: Sean Lim
 + URL to Reviewe's P3 Github Repo URL: *<https://github.com/example/p3>*
 
 *Answer the following questions in regards to the student's project you are reviewing. REMOVE THE INSTRUCTIONS FOR EACH PROMPT when complete. We should only see YOUR ANSWERS.*
@@ -10,9 +10,13 @@
 Address as many of the following points as applicable:
 
 + What are your initial impressions of the site interface?
++ The site has a simple design that can be easily understood.
 + Were there any parts of the interface that you found confusing, or did not work as you expected?
++ The age does not seem to have much effect on the output.
 + Were there any parts of the interface that you thought worked notably well?
++ All the parts of the interface worked as intended, I did not encounter any problems.
 + Do you have any suggestions for improvements on the interface?
++ The age should have more effect on the overall output.
 
 
 ## 2. Functional testing
@@ -22,14 +26,18 @@ Knowing this, it's time to put your reviewee's application to the test. Think of
 
 Examples...
 + Try submitting a form without entering any data
++ Gives errors for missing fields
 + Try submitting a form with entering data in only some of the fields
++ Gives errors for missing fields
 + If an input is asking for a number, try entering some of the following combinations: decimal numbers, negative numbers, letters, symbols, an extremely large number, etc.
++ If extremely large number is inputted, it gives the "The age must be an integer." error.
 + Try and access a URL on their site that likely does not exist (e.g. http://a3.domain.com/asdjfks)
++ When trying to access an URL that does not exist, the output is a 404 not found page.
 + Etc.
 
 __Summarize what you tried, and describe any unexpected/undesirable outcomes.__
 
-(Even if you don't find any issues, having the reviewee see what you tried might give them insight into things they did not think to test.)
++ If extremely large number is inputted, it gives the "The age must be an integer." error.
 
 
 
